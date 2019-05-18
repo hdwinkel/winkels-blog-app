@@ -1,5 +1,7 @@
 # WinkelsBlogApp
 
+Frontend for Winkels Blog web application
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
