@@ -1,29 +1,16 @@
-# Das ist eine Überschrift
-
+<!---Das ist ein Kommentar--># Das ist eine Überschrift
 ## Und das ist eine Unterüberschrift
-
-*Das ist eine Hervorhebung*
-
+Das ist ein normaler Text:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*Das ist eine Hervorhebung*
 **größere Hervorhebung**
-
-> Das ist ein Zitat
-> und hier geht es weiter
-
-* Aufzählung 1
-* Aufzählung 2
-
-`Das ist ein Stück Code`
-`und das auch`
-
+
+> Das ist ein Zitat> und hier geht es weiter
+* Aufzählung 1* Aufzählung 2
+`Das ist ein Stück Code``und das auch`
 äöüßÄÖÜ?%/()§€
-
 [Winkels Homepage](http://www.egladil.de "Winkels Homepage")
-
-![](file://C:/Users/hdwin/Pictures/architecture-mistakes.gif)
-
-
-Das ist jetzt normaler Text
-
+![](http://localhost:8080/blogs/smiley.jpg)
+Das ist noch mal ein normaler Text
 19. Mai 2019 01:06
 
 

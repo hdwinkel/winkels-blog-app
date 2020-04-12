@@ -1,4 +1,5 @@
-import { Component, OnInit, VERSION } from '@angular/core';
+import { Component, OnInit, ViewChild, VERSION } from '@angular/core';
+import { NgbCollapse } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'wbl-navbar',
@@ -7,7 +8,9 @@ import { Component, OnInit, VERSION } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  isCollapsed = true;
   angularVersion: string;
+  @ViewChild(NgbCollapse) navbarToggler: NgbCollapse;
 
 	constructor() {
 	}
@@ -21,5 +24,12 @@ export class NavbarComponent implements OnInit {
 	toggleNavbar() {
 	  this.navbarOpen = !this.navbarOpen;
 	}
+
+	
+	collapseNav() {
+		if (this.navbarToggler) {
+			this.isCollapsed = true;
+		}
+}
 
 }
