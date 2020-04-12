@@ -10,7 +10,7 @@ export class NavbarComponent implements OnInit {
 
   isCollapsed = true;
   angularVersion: string;
-  @ViewChild(NgbCollapse) navbarToggler: NgbCollapse;
+  @ViewChild(NgbCollapse, { static: false }) navbarToggler: NgbCollapse;
 
 	constructor() {
 	}
