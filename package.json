@@ -22,7 +22,7 @@
     "@angular/router": "~9.1.1",
     "@ng-bootstrap/ng-bootstrap": "^6.0.2",
     "bootstrap": "^4.4.1",
-    "core-js": "^2.5.4",
+    "core-js": "^3.6.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
     "ngx-markdown": "^9.0.0",
