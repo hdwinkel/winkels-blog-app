@@ -1,7 +1,8 @@
 
 # quarkus-logger
 
-![Übersicht POC](https://github.com/hdwinkel/quarkus-logger/blob/develop/doc/pictures/DL-overview-poc.jpg "Übersicht PoC")
+Ein PNG:
+![alt text](https://github.com/hdwinkel/winkels-blog-app/blob/development/src/assets/DL-cluster-prod.png "uebersicht PoC")
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
