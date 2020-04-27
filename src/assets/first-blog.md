@@ -1,13 +1,7 @@
 
 # quarkus-logger
 
-Ein PNG:
-![alt text PNG](https://github.com/hdwinkel/winkels-blog-app/blob/development/src/assets/DL-cluster-prod.png "uebersicht PoC")
-
-![alt text](https://github.com/hdwinkel/winkels-blog-app/blob/development/src/assets/DL-cluster-prod.png "Logo Title Text 1")
-
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/hdwinkel/quarkus-logger/master/doc/pictures/DL-cluster-prod.jpg "Logo Title Text 1")
 
 This repo shall host all activities to create a quarkus based IoT logging landscape
 It consist of some different parts:
