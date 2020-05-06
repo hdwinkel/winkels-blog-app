@@ -1,5 +1,7 @@
 import { Component, OnInit, ViewChild, VERSION } from '@angular/core';
 import { NgbCollapse } from '@ng-bootstrap/ng-bootstrap';
+import { BlogModel } from '../shared/blog.model'
+import { BlogProvider } from '../shared/blog.provider'
 
 @Component({
   selector: 'wbl-navbar',
@@ -12,7 +14,10 @@ export class NavbarComponent implements OnInit {
   angularVersion: string;
   @ViewChild(NgbCollapse) navbarToggler: NgbCollapse;
 
-	constructor() {
+  blog_list: BlogModel[] = [];
+
+	constructor(blogProvider: BlogProvider) {
+		this.blog_list = blogProvider.getBlogs();
 	}
 
 	ngOnInit() {

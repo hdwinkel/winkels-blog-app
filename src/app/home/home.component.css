@@ -5,4 +5,7 @@ img {
 .bild {
     display: block;
     margin: 0 auto;
-    }
+}
+
+P.blockcenter { text-align: center }
+h1 { text-align: center }

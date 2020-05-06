@@ -1,4 +1,21 @@
-<img  class="bild" src="./assets/title_01.png" alt="Title" width="963" height="469" class="bild" />
-<p>
-  home works!
-</p>
+<img  class="bild" src="./assets/title_01.png" alt="Title" width="500" height="220" class="bild" />
+
+<div class="list-group">
+
+  <a *ngFor="let blog of blog_list" class="list-group-item list-group-item-action flex-column align-items-start">
+      <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">{{blog.Name}}</h5>
+          <small>Updated: {{blog.Update}}</small>
+      </div>
+      <p class="mb-1">{{blog.Description}}</p>
+
+     
+     <div class="d-flex w-100 justify-content-between">
+        <small><a (click)="setBlogToNavigate(blog)" class="nav-link" [routerLink]="['/markdownshow']" [queryParams]="{prop: blog.UUID}">read more ...</a></small>
+     </div>
+  </a>
+ 
+</div>
+
+
+
