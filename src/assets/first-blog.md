@@ -1,3 +1,11 @@
+[//]: # (Name: Quarkus Logger)
+[//]: # (Description: This Blog describes a PoC, how to apply modern technologies like IoT, Microservices and Kubernetes on a RaspBerry Pi)
+[//]: # (Creator: Winkel)
+[//]: # (Date: 13.04.2020)
+[//]: # (Update: 16.04.2020)
+[//]: # (Tag: Architecture)
+[//]: # (Tag: PoC)
+[//]: # (Tag: IoT)
 
 # quarkus-logger
 
@@ -45,7 +53,7 @@ Container Orchestration | Kubernetes
 CI/CD | Jenkins
 Database | MariaDB
 Database GUI | Heidi-SQL
-Monitoring | Poseidon
+Monitoring | Prometheus
 Dashboards | Grafana
 Message Orchestration | Node Red
 Message Broker MQTT | Mosqitto
