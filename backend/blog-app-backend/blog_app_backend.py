@@ -3,7 +3,7 @@ import os, io
 import base64
 import json
 from flask import request
-# from flask_cors import CORS, cross_origin
+from flask_cors import CORS, cross_origin
 from datetime import datetime
 import uuid
 
@@ -94,16 +94,16 @@ def read_mdfile_and_create_blog(filename, blogroot):
 
 app = flask.Flask(__name__)
 
-# cors = CORS(app) # REMOVE !!! IMPORTANT !!! NOT FOR PROD
-# app.config['CORS_HEADERS'] = 'Content-Type'
+cors = CORS(app) # REMOVE !!! IMPORTANT !!! NOT FOR PROD
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-# @cross_origin()
+@cross_origin()
 @app.route('/')
 def root():
     return flask.render_template('index.html')
 
-# @cross_origin()
+@cross_origin()
 @app.route('/blogs')
 def blogs():
 

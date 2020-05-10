@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  backend:
+  blog-app-backend:
     build: ./backend/blog-app-backend
     command: gunicorn -b 0.0.0.0:8000 -w 1 --threads 2 blog_app_backend:app
 #    command: python blog_app_backend.py

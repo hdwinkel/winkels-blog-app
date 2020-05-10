@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BlogService } from '../shared/blog.service'
+//import { BlogService } from '../shared/blog.service'
 import { BlogModel } from '../shared/blog.model'
 import { BlogProvider } from '../shared/blog.provider'
 
@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     //this.getBlogs();
-    console.log("HomeComponent: OnInit()");
+    //console.log("HomeComponent: OnInit()");
   }
 
 /*  
