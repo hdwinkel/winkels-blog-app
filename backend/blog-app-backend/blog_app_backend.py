@@ -104,7 +104,12 @@ def root():
     return flask.render_template('index.html')
 
 @cross_origin()
-@app.route('/blogs')
+@app.route('/blogs-api')
+def blogsroot():
+    return flask.render_template('index.html')
+
+@cross_origin()
+@app.route('/blogs-api/blogs')
 def blogs():
 
     blogs = process_file_tree_and_create_blogs()

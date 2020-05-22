@@ -1,14 +1,12 @@
 version: '3.7'
 
-# path to Angular assets (blogs root): /mnt/blog/assets
-
 services:
   blog-app-backend:
     build: ./backend/blog-app-backend
     command: gunicorn -b 0.0.0.0:8000 -w 1 --threads 2 blog_app_backend:app
 #    command: python blog_app_backend.py
     volumes:
-      - /home/winkel/work/apache2/site-content/opa-wetterwachs/winkelblog/assets/:/usr/src/app/blogs
+      - ./backend/blogs/:/usr/src/app/blogs
     ports:
       - 8000:8000
     env_file:

@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { MarkdownshowComponent } from './markdownshow/markdownshow.component';
 import { BlogProvider } from './shared/blog.provider';
+import { AboutComponent } from './about/about.component';
 
 export function markedOptions(): MarkedOptions {
   const renderer = new MarkedRenderer();
@@ -41,7 +42,8 @@ export function blogProviderFactory(provider: BlogProvider) {
     HomeComponent,
     FooterComponent,
     PagenotfoundComponent,
-    MarkdownshowComponent
+    MarkdownshowComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -8,3 +8,4 @@
 
 In diesem Blog wird nur experimentiert, ob die Kommentare als Metadaten nutzbar sind und ob man Bilder einbetten kann.
 
+![alt text](assets/Architecture/001_allererster%20Blog/testbild.PNG "Testbild")
