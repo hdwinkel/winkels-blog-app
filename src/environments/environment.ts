@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiURL: 'http://192.168.10.107:8000/blogs-api'
+  apiURL: 'http://localhost:8000/blogs-api'
 };
 
 /*

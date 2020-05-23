@@ -9,7 +9,7 @@ Das ist ein normaler Text:Lorem ipsum dolor sit amet, consectetur adipiscing el
 `Das ist ein Stück Code``und das auch`
 äöüßÄÖÜ?%/()§€
 [Winkels Homepage](http://www.egladil.de "Winkels Homepage")
-![](http://localhost:8080/blogs/smiley.jpg)
+![alt text](assets/Development/002_Architecture/003_dritter%20Blog/testbild.PNG "Testbild")
 Das ist noch mal ein normaler Text
 19. Mai 2019 01:06
 

@@ -40,7 +40,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [Winkels Homepage](http://www.egladil.de "Winkels Homepage")
 
-![](http://localhost:8080/blogs/smiley.jpg)
+![alt text](assets/Development/003_Raspberry/001_erster%20Raspi%20Blog/testbild.PNG "Testbild")
+
 
 Das ist noch mal ein normaler Text
 
