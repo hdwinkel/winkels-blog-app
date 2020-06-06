@@ -129,6 +129,12 @@
           "configurations": {
             "production": {
               "browserTarget": "winkels-blog-app:build:production"
+            },
+            "preproduction": {
+              "browserTarget": "winkels-blog-app:build:preproduction"
+            },
+            "local": {
+              "browserTarget": "winkels-blog-app:build:local"
             }
           }
         },
